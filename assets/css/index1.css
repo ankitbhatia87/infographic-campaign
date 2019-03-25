@@ -1,0 +1,95 @@
+#banner {
+    background: url('../images/index1/banner_bg.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+.description-center h4 {
+    width: 40vw;
+    padding-left: 40px;
+}
+
+.description-center .info {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
+
+ul.principles li i {
+    color: #32c77f;
+}
+
+.feature {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.feature .left-container img {
+    border-radius: 20px;
+}
+
+.feature .left-container {
+    justify-content: flex-end;
+}
+
+.feature .left-container .description-left {
+    width: 90%;
+}
+
+.feature .left-container .description-left .btn {
+    align-self: flex-start;
+}
+
+
+.feature .right-container {
+    width: 50vw;
+    justify-content: flex-end;
+}
+
+.feature .right-container .description-right {
+    width: 80%;
+}
+
+.feature .right-container .image-holder {
+    width: 80%;
+}
+
+.feature .right-container .image-holder img {
+    border-radius: 20px;
+}
+
+blockquote {
+    padding-bottom: 50px;
+}
+blockquote p {
+    font-size: 1.5rem;
+    color: #32c77f;
+}
+
+#showcase {
+    display: flex;
+    height: 515px;
+    width: 90vw;
+    margin: 0 auto;
+    border-top: #dbdcdd solid 1px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#showcase .slide1 {
+    width: 400px;
+    align-self: flex-end;
+}
+
+#showcase .slide2 {
+    width: 325px;
+    align-self: flex-start;
+}
+
+#showcase .slide3 {
+    width: 400px;
+    align-self: flex-end;
+}
+
+#showcase img {
+    border-radius: 20px;
+}
