@@ -1,0 +1,60 @@
+#banner {
+    background: url('../images/banner_bg.jpg') no-repeat;
+    flex-direction: column;
+    justify-content: center;
+    background-size: 100% 100%; 
+}
+
+.challenge-banner {
+    justify-content: flex-end;
+}
+
+.challenge-graphic {
+    background: url(../images/challange.jpg) no-repeat;
+    background-size: 103% 103%;
+    width: 80%;
+    height: 480px;
+    border-radius: 20px 0 0 20px;
+}
+
+.approach-banners {
+    display: flex;
+    justify-content: space-between;
+}
+
+#showcase {
+    flex-direction: column;
+}
+
+#showcase .row:last-child {
+    align-self: flex-end;
+    display: flex;
+}
+
+#showcase .row iframe {
+    border-radius: 20px;
+}
+
+.showcase-graphic-1 {
+    width: 78vw;
+    background: url(../images/challange.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 552px;
+    border-radius: 0 20px 20px 0;
+}
+
+.showcase-graphic-2 {
+    margin-left: 35px;
+}
+
+.showcase-video-1 {
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 460px;
+    height: 485px;
+}
+
+.showcase-graphic-2 img {
+    border-radius: 20px 0 0 20px;
+}

@@ -1,0 +1,69 @@
+.carousel {
+    position: relative;
+    z-index: 1;
+}
+
+.carousel ul {
+    display: flex;
+    list-style: none;
+}
+
+.carousel-small ul {
+    width: 85vw;
+    justify-content: space-between;
+}
+
+.carousel-small ul li img {
+    border-radius: 10px;
+}
+
+.carousel-medium {
+    justify-content: center;
+    position: relative;
+    top: -100px;
+}
+
+.carousel-medium img {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, .15) 10px 10px 20px;
+}
+
+.carousel-single {
+    padding-top: 250px;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.carousel-single .controls {
+    bottom: 0;
+    width: 40%;
+    left: 0;
+}
+
+.carousel-large .controls {
+    left: 10%;
+    width: 15%;
+}
+
+.controls {
+    display: flex;
+    position: absolute;
+    left: 67%;
+    bottom: -4vh;
+    width: 12%;
+    justify-content: space-between;
+}
+
+.controls .control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 50%;
+    width: 65px;
+    font-size: 1.2rem;
+    height: 65px;
+    box-shadow: rgba(0, 0, 0, .30) 3px 3px 10px;
+    color: #32c77f;
+    border: none;
+}
